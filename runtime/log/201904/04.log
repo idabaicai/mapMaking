@@ -1,0 +1,65 @@
+[ 2019-04-04T11:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tpAdmin-master/public/
+[ log ] 127.0.0.1/tpAdmin-master/public/ [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,247.16kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpAdmin-master\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/tpAdmin-master/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tpAdmin-master\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-04T11:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tpAdmin-master/public/admin.html
+[ log ] 127.0.0.1/tpAdmin-master/public/admin.html [运行时间：0.318019s][吞吐率：3.14req/s] [内存消耗：5,009.07kb] [文件加载：73]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpAdmin-master\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/tpAdmin-master/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.084005s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpStudy\WWW\tpAdmin-master\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
